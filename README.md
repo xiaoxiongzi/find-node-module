@@ -1,4 +1,4 @@
-# find-node-module README
+# Find Node Module
 
 This vscode plugin is used to locate the module in node_modules quickly. 
 
