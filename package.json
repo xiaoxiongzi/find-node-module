@@ -3,6 +3,7 @@
   "displayName": "Find Node Module",
   "description": "",
   "version": "0.0.1",
+  "publisher": "xiaoxiongzi",
   "engines": {
     "vscode": "^1.95.0"
   },
