@@ -29,7 +29,7 @@ export function activate(context: vscode.ExtensionContext) {
       });
 
       if (!moduleName) {
-        vscode.window.showInformationMessage('No module selected');
+        // vscode.window.showInformationMessage('No module selected');
         return;
       }
 

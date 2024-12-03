@@ -2,7 +2,7 @@
   "name": "find-node-module",
   "displayName": "Find Node Module",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "publisher": "xiaoxiongzi",
   "engines": {
     "vscode": "^1.95.0"
@@ -10,6 +10,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "icon/find-node-module.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
@@ -19,14 +20,14 @@
         "title": "Find Node Module"
       }
     ],
-    "keybindings": [
-      {
-        "command": "extension.findNodeModule",
-        "key": "ctrl+shift+p",
-        "mac": "cmd+shift+p",
-        "when": "editorTextFocus"
-      }
-    ]
+    "views": {
+      "explorer": [
+        {
+          "id": "find-node-module",
+          "name": "Find Node Module"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",

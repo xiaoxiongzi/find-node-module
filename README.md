@@ -13,8 +13,8 @@ This vscode plugin is used to locate the module in node_modules quickly.
 2. Enter `Find Node Module`
 3. Enter the module name you want to find
 
-## Release Notes
+## Dev
 
-### 1.0.0
-
-Initial release of Find Node Module
+```
+vsce package
+```
