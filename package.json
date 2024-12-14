@@ -19,15 +19,7 @@
         "command": "extension.findNodeModule",
         "title": "Find Node Module"
       }
-    ],
-    "views": {
-      "explorer": [
-        {
-          "id": "find-node-module",
-          "name": "Find Node Module"
-        }
-      ]
-    }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
